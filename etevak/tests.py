@@ -7,3 +7,7 @@ print(newlist)
 
 
 mytuple = ("Walter", "White")
+
+name = input("Hey what's your name?\n")
+
+print("Hello", name)
