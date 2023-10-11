@@ -7,8 +7,15 @@ print(type(my_list))
 my_list[0] = "BMW"
 print(my_list)
 
+# list constructor
+construct1 = list(("Mercedes", "Volkswagen" ))
+print(construct1)
+
 # display a value at an index
 print(my_list[2])
+
+# Display a range
+print(my_list[1:3])
 
 # remove a value from the list
 my_list.remove("Jeep")
@@ -16,6 +23,10 @@ print(my_list)
 
 # Remove a value at an index
 my_list.pop(3)
+print(my_list)
+
+# Remove the last value
+my_list.pop()
 print(my_list)
 
 # add a value to the end of the list
@@ -45,6 +56,17 @@ for x in my_list:
     print(x)
 
 # loop through toyota
-i = 0
+
 for i in range(len(toyota)):
     print(toyota[i])
+#  or
+i = 0
+while i < len(toyota):
+    print(toyota[i])
+    i = i + 1
+
+# Clear the toyota list
+toyota.clear()
+print(toyota)
+# Delete the list altogether
+del toyota
