@@ -9,7 +9,7 @@ if "Naruto" in my_tuple:
 
 # Changing value in a tuple
 my_list = list(my_tuple)
-my_list[2] = "Kengen"
+my_list[2] = "Kengan"
 my_tuple = tuple(my_list)
 
 print(my_tuple)
@@ -34,3 +34,11 @@ while i < len(my_tuple):
     i = i + 1
 y = my_tuple.index("Bleach")
 print(y)
+tuple2 = tuple(("Demon Slayer", "Attack on Titan"))
+newtuple = my_tuple + tuple2;
+
+print(newtuple)
+
+print(newtuple.count("Bleach"))
+
+print(newtuple.index("Naruto"))

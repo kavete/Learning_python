@@ -41,3 +41,4 @@ new_cars = cars.copy()
 cars.append("Wish")
 print(new_cars)
 
+print("*" * 10)
