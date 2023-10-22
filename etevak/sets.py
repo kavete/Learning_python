@@ -1,3 +1,5 @@
+#Sets are Unordered and unchangeable
+# You can add/remove values but can't change the existing ones
 this_set = {"HTML", "CSS", "JS", "jQuery"}
 set2 = {"Bootstrap", "Django", "Python"}
 
@@ -34,6 +36,7 @@ print(new_set)
 
 set3 = {"JavaScript", "HTML", "CSS3", "React", "Python3", "Django", "Bootstrap"}
 
+# New set containing items in both sets
 z = set3.intersection(new_set)
 
 print(z)
@@ -41,6 +44,7 @@ print(z)
 y = set3.symmetric_difference(new_set)
 
 print(y)
+
 
 set3.symmetric_difference_update(new_set)
 

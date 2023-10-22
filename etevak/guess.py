@@ -24,15 +24,22 @@ for i in range(5):
 num = random.randrange(1, 100)
 print("Enter a number between 1 and 100")
 guess = int(input())
+
+count = 0
+
 while True:
     if guess > num:
         print("The number is less than " + str(guess))
         print("Guess again!")
         guess = int(input())
+        count += 1
     elif guess < num:
         print("The number is more than " + str(guess))
         print("Guess again!")
         guess = int(input())
+        count += 1
     else:
         print("Correct!")
+        count += 1
         break
+print("You got it in" , count , "tries") 

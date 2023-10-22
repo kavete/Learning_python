@@ -36,7 +36,11 @@ print(type(z))
 
 if "name" in this_dict:
     print("You have a name")
+
+# Change value
 my_dict["name"] = "One Piece"
+
+# Update value
 my_dict.update({"main": "Luffy"})
 print(my_dict)
 
@@ -49,6 +53,7 @@ print(my_dict)
 this_dict.pop("year")
 print(this_dict)
 
+# Remove last added item
 another_dict.popitem()
 
 print(another_dict)
