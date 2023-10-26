@@ -1,25 +1,27 @@
+is_started = False
+is_stopped = True
 
-started = False
-# stopped = True
 while True:
-    user_status = input('> ').lower()
-    if user_status == "start":
-        if started == False:
-            print("Car started... ready to go")
-            started = True
-        else:
-            print("Car already started")
-    elif user_status == "stop":
-        if started == True:
-            print("Car stopped")
-            # stopped = True
-        # elif started == False:
-        #     print("Start the car first")
-        else:
-            print("Car already stopped")
-    elif user_status == "help":
+    command = input('> ').lower()
+    if command == "help":
         print("start - to start the car\nstop - to stop the car\nquit - to quit the game ")
-    elif user_status == "quit":
+    elif command == "quit":
         break
+    elif command == "start":
+        if is_started:
+            print("Car already started")
+        else:
+            print("Car started")
+            is_started = True
+            is_stopped = False
+    elif command == "stop":
+        if is_stopped:
+            print("Car already stopped")
+        else:
+            print("Car stopped")
+            is_stopped = True
+            is_started = False
     else:
-        print("Sorry I do not understand")
+        print("I do no understand")
+
+
