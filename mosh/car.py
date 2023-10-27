@@ -23,5 +23,3 @@ while True:
             is_started = False
     else:
         print("I do no understand")
-
-

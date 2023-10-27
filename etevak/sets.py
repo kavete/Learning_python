@@ -1,4 +1,4 @@
-#Sets are Unordered and unchangeable
+# Sets are Unordered and unchangeable
 # You can add/remove values but can't change the existing ones
 this_set = {"HTML", "CSS", "JS", "jQuery"}
 set2 = {"Bootstrap", "Django", "Python"}
@@ -44,7 +44,6 @@ print(z)
 y = set3.symmetric_difference(new_set)
 
 print(y)
-
 
 set3.symmetric_difference_update(new_set)
 

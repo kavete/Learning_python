@@ -1,4 +1,5 @@
 import random
+
 number = random.randrange(1, 10)
 print("Welcome to our guessing game")
 
@@ -42,4 +43,4 @@ while True:
         print("Correct!")
         count += 1
         break
-print("You got it in" , count , "tries") 
+print("You got it in", count, "tries")

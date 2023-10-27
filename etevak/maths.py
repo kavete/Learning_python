@@ -24,6 +24,3 @@ print(int(math.pow(64, 0.5)))
 my_list = [56, 45, -34, 23, 12, 56, 90, -45]
 
 print(max(my_list))
-
-
-

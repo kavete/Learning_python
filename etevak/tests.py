@@ -1,12 +1,12 @@
 list1 = ["Brian", "Kavete"]
 list2 = ["Jackson", "Kyule"]
 
-newlist = list1 + list2
+new_list = list1 + list2
 
-print(newlist)
+print(new_list)
 
 
-mytuple = ("Walter", "White")
+my_tuple = ("Walter", "White")
 
 name = input("Hey what's your name?\n")
 
