@@ -7,9 +7,9 @@ print(f"BMI is { bmi }")
 
 if bmi < 18.5:
     print("Underweight")
-elif bmi >= 18.5 and bmi < 24.9:
+elif 18.5 <= bmi < 24.9:
     print("Normal weight")
-elif bmi >= 24.9 and bmi <= 29.9:
+elif 24.9 <= bmi <= 29.9:
     print("Overweight")
 elif bmi >= 30:
     print("Obese")
@@ -25,4 +25,3 @@ if "kenya" in sentence.lower():
     print("It exists")
 else:
     print("It doesn't exist")
-

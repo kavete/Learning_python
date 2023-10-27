@@ -1,7 +1,4 @@
-
-
 import time
-
 
 while True:
     current_time = time.localtime()

@@ -11,11 +11,11 @@ car = {
     "owners": ["Etevak", "Brian", "Mwendwa"]
 }
 
-friends = {"Jack", "Fidel", "Fred", "Ken", "John", "John"} # unique elements and unordered
+friends = {"Jack", "Fidel", "Fred", "Ken", "John", "John"}  # unique elements and unordered
 
 print(friends)
 
-workers =("Jack", "Stan", "Etevak")  # *immutable
+workers = ("Jack", "Stan", "Etevak")  # *immutable
 
 print(friends)
 print(workers)
@@ -23,15 +23,15 @@ print(car)
 
 print(cities[1])
 
-print(cities[-1]) # last element
+print(cities[-1])  # last element
 
 print(car["model"])
 
 print(f"The car's color is {car['color']}")
 
-#loop
+# loop
 
-for city in cities: # for each city in cities
+for city in cities:  # for each city in cities
     print(city)
 
 for key, value in car.items():

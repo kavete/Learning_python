@@ -60,5 +60,3 @@ else:
     difference = date2 - date1
 
 print(difference)
-
-

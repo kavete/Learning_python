@@ -1,8 +1,13 @@
-name = "Ahmed"
-city = "Cairo"
+name = "Etevak"
+city = "NewYork"
+age = 35
 weight = 70
 
-print(f"My name is { name }, I weigh { weight } kgs and I live in { city }")
+
+print(name + city)
+print(name * 4)
+
+print(f"My name is { name }, I am { age } years old, I weigh { weight } kgs and I live in { city }")
 sentence = "These are python string methods"
 
 uppercase = sentence.upper()
