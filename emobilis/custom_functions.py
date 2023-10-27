@@ -16,14 +16,19 @@ def calculate_volume_cylinder(radius, height):
 
 print(calculate_volume_cylinder(4, 56))
 
+print(calculate_volume_cylinder(7, 30))
+
+volume1 = calculate_volume_cylinder(15, 50)
+
+print(round(volume1))
 
 def add_numbers(*args):
     total = 0
     for number in args:
         total += number
-    print(total)
+    return total
 
-add_numbers(6, 87, 45, 655, 34)
+print(add_numbers(6, 87, 45, 655, 34))
 
 # Named parameters
 

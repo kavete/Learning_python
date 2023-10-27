@@ -1,8 +1,12 @@
-
 from time import sleep
+
 starting_point = input("Enter the starting point > ")
 stopping_point = input("Enter the stopping point > ")
 
+
+# x = "10.4"
+
+# float(x)
 
 # print(type(starting_point))
 
